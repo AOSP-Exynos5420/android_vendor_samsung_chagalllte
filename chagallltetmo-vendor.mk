@@ -15,6 +15,6 @@
 # Pick up overlay for features that depend on non-open-source files
 $(call inherit-product, vendor/samsung/chagall-common/chagall-common-vendor.mk)
 
-DEVICE_PACKAGE_OVERLAYS := vendor/samsung/chagalllte/overlay
+DEVICE_PACKAGE_OVERLAYS := vendor/samsung/chagallltetmo/overlay
 
-$(call inherit-product, vendor/samsung/chagalllte/chagalllte-vendor-blobs.mk)
+$(call inherit-product, vendor/samsung/chagallltetmo/chagallltetmo-vendor-blobs.mk)
