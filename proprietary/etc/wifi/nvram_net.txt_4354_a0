@@ -9,8 +9,8 @@ boardflags2=0x00802000
 boardflags3=0x48000109
 
 macaddr=00:90:4c:16:70:01
-ccode=GB
-regrev=6
+ccode=US
+regrev=0
 antswitch=0
 pdgain5g=4
 pdgain2g=4
@@ -157,6 +157,7 @@ swctrlmap_5g=0x00000202,0x05050000,0x04040000,0x000000,0x047
 swctrlmap_2g=0x0000140c,0x28300000,0x08200000,0x803020,0x0ff
 
 cckdigfilttype=1
+ofdmfilttype=1
 
 ## 2G TX power compensation
 powoffs2gtna0=-1,0,-1,0,-1,-3,-3,-3,-2,0,0,0,1,0
